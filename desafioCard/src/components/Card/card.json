@@ -1,0 +1,10 @@
+{
+  "name": "Rick Park",
+  "category": "PRO",
+  "city": "New York",
+  "office":"User interface designer and front-end developer",
+  "skills": ["UI/UX","Front-End-Development", "HTML", "CSS", "JavaScript", "React", "Node"],
+  "photos": [
+    "https://i.postimg.cc/W3J0YqRn/woman-g5394fa4ee-1920.jpg"
+  ]
+}
