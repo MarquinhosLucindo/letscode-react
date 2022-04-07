@@ -13,6 +13,7 @@ const Card = () => (
       
       {<img src={card.photos[0]} />       }
     </PhotoArea>
+    
     <InfoArea>
       <Name>{card.name}</Name>
       <City>{card.city}</City>

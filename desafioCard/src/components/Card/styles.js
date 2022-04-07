@@ -58,10 +58,9 @@ export const Office = styled.p`
 
 
 export const SkillsArea = styled.div`
-  height: 100px;  
+  height: 60px;  
   text-align: left;
-  padding:5px;    
-  
+  padding:5px;  
   background-color: black;
   
   

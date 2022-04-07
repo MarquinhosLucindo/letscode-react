@@ -7,7 +7,7 @@ import UserCard from './components/UserCard';
 const App = () => (
   <div>
     {/* <h1>Teste</h1> */}
-    <ButtonCounter step={100} />
+    <ButtonCounter step={5} />
     <UserCard/>
     <Counter step={3} startValue={5}/>
     <Menu />

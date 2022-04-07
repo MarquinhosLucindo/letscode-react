@@ -9,16 +9,22 @@ const ButtonCounter = ({ step, startValue }) => {
 
   const [checked, setChecked] = useState(false)
 
+  const [array, setArray] = useState([])
+
   const toggleCount = () => {
     setChecked(!checked)
   }
 
   const decrement = () => {
     setCount(count - step)
+    setArray(array.concat(count))
   }
 
   const increment = () => {
+    
     setCount(count + step)
+    setArray([...array, count])
+
   }
 
   return (
@@ -33,7 +39,11 @@ const ButtonCounter = ({ step, startValue }) => {
       </div>  
 
       <button onClick={decrement}>-</button>
-      {count}
+     <div>Contador:{count}</div>
+     
+     <div>Ultimos:{array.join(', ')}</div>
+
+      
       <button onClick={increment}>+</button>
     </div>
   )
